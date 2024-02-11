@@ -18,22 +18,78 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+/* Header styles */
+
+
 h1 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color:#3a3a3a;
+    font-weight: 300;
+    text-decoration: none;
 }
 
 
-/* Header */
-header {
-    background-color: lightpink;
+/* Additional styles for logo and menu arrangement */
+#logo {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+#menu {
+    font-size: 80%;
+    letter-spacing: 4px;
+    list-style-type: none;
+    display: flex;
+    margin-top: 10px; /* Adjust margin as needed */
+    justify-content: center; /* Center the menu items horizontally */
+    
+}
+
+#menu > li {
+    margin-right: 1em; /* Adjust margin as needed */
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+#menu a {
+    text-decoration: none; /* Remove underline */
+    color: #3a3a3a; /* Set text color to black */
 }
 
 /* Main content */
+
+
 main {
-    background-color: lightblue;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+    margin-top: 47px;
 }
+
+/* Hands section */
+#hands {
+    height: 250px;
+    width: 100%;
+    background: url("../images/tR0QV5PPeTsls7wgOCYs.jpg") no-repeat center center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hands-title {    
+    font-size: 40px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
 
 /* Footer */
 footer {
