@@ -105,6 +105,13 @@ nav {
     top: 100%;
 }
 
+/* Add space above sections to account for fixed header */
+#treatment-section {
+    scroll-margin-top: 150px; /* Adjust the value based on your fixed header's height */
+}
+
+
+
 /* Main content */
 
 
@@ -138,6 +145,105 @@ main {
 
 }
 
+hr {
+    margin: 0;
+    border: 0;
+    border-top: 1px solid #7acacc; /* You can adjust the color as needed */
+}
+/* Intro section */
+#intro {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 150%;
+    padding: 40px;
+}
+
+/* Treatment section */
+
+#treatment-section {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#treatment-section  h3 {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 120%;
+    padding: 20px;
+}
+
+#treatment {
+    flex: 1;
+    max-width: 60%; /* Set a maximum width for #treatment */
+}
+
+#treatment>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#treatment p {
+    padding: 0 20px;
+}
+
+
+#treatment-image {
+    background: url('../images/7SyUW4lgveCUBeaRgsfG.jpg') no-repeat top center / cover;
+    height: 300vw;
+    width: 300vw;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 400px;
+    max-height: 400px;
+ }
+
+/* Practice section */
+
+#practice-section {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#practice-section h3 {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 120%;
+    padding: 20px;
+}
+
+#practice-image {
+    flex: 1;
+    order: 1; /* Set the order to 1 to place it on the left */
+    background: url('../images/zWVbzGYE5WvU86tqeGEE.jpg') no-repeat;
+    background-size: contain;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    height: 300px; /* Adjust the height as needed */
+    max-width: 100%; /* Make sure it doesn't exceed its container */
+    margin-bottom: 20px;
+}
+
+#practice {
+    flex: 2;
+    order: 2; /* Set the order to 2 to place it on the right */
+    max-width: 60%;
+}
+
+#practice>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#practice p {
+    padding: 0 20px;
+}
 
 
 /* Footer */
@@ -189,6 +295,54 @@ footer {
         display: flex;
     }
 }
+
+/* Therapist page */
+#therapist-section {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+#therapist-section  h3 {
+    margin-bottom: 20px;
+    text-align: left;
+    font-size: 120%;
+    padding: 20px;
+}
+
+#therapist {
+    flex: 1;
+    max-width: 60%; /* Set a maximum width for #treatment */
+}
+
+#therapist>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#therapist p {
+    padding: 0 20px;
+}
+
+
+#therapist-image {
+    background: url('../images/q6pRDcnvHkrkY7pVSr1y.jpg') no-repeat top center;
+    background-size: contain;
+    height: 300vw;
+    width: 300vw;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 400px;
+    max-height: 400px;
+ }
+
+ 
+
+
+
 
 /* Hide nav toggle and dropdown for devices larger than 768px */
 @media only screen and (min-width: 769px) {
