@@ -13,17 +13,24 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Montserrat', sans-serif;
 }
 
 /* Header styles */
 
+header {
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #7acacc;
+}
 
 h1 {
     font-family: 'Montserrat', sans-serif;
-    color:#3a3a3a;
+    color: #3a3a3a;
     font-weight: 300;
     text-decoration: none;
 }
@@ -34,7 +41,7 @@ h1 {
     display: flex;
     align-items: center;
     margin-top: 10px;
-    margin-bottom: 20px;
+    padding: 17px;
     text-decoration: none;
 }
 
@@ -43,13 +50,18 @@ h1 {
     letter-spacing: 4px;
     list-style-type: none;
     display: flex;
-    margin-top: 10px; /* Adjust margin as needed */
-    justify-content: center; /* Center the menu items horizontally */
-    
+    /* Adjust margin as needed */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* Center the menu items horizontally */
+    justify-content: center;
+   
+
 }
 
-#menu > li {
-    margin-right: 1em; /* Adjust margin as needed */
+#menu>li {
+    margin-right: 1em;
+    
 }
 
 .active {
@@ -57,8 +69,40 @@ h1 {
 }
 
 #menu a {
-    text-decoration: none; /* Remove underline */
-    color: #3a3a3a; /* Set text color to black */
+    /* Remove underline */
+    text-decoration: none;
+    color: #3a3a3a;
+   
+}
+
+/* Nav toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    position: absolute;
+    top: 10px;
+    right: 10px; /* Adjust as needed */
+    cursor: pointer;
+    color: #7acacc;
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #7acacc;
+    display: none;
+    top: 100%;
 }
 
 /* Main content */
@@ -67,12 +111,14 @@ h1 {
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 130px;
+    padding: 0px;
+    
 }
 
 /* Hands section */
 #hands {
-    height: 250px;
+    height: 400px;
     width: 100%;
     background: url("../images/tR0QV5PPeTsls7wgOCYs.jpg") no-repeat center center/cover;
     display: flex;
@@ -81,17 +127,86 @@ main {
     align-items: center;
 }
 
-#hands-title {    
-    font-size: 40px;
+#hands-title {
+    font-size: 60px;
     color: white;
     font-weight: 400;
     text-align: center;
     margin-top: 20px;
+    letter-spacing: 8px;
+    word-spacing: 10px;
 
 }
 
 
+
 /* Footer */
+
 footer {
-    background-color: lightslategray;
+    background-color: #bac4cd;
+}
+
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #ffffff;
+}
+
+/* Responsive font size for smaller screens */
+@media only screen and (max-width: 768px) {
+    #hands-title {
+        font-size: 20px;
+    }
+
+    /* Reduce and align #menu vertically for screens with a maximum width of 768px */
+    #menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #menu>li {
+        margin-right: 0;
+        margin-bottom: 0.5em;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+    }
+}
+
+/* Hide nav toggle and dropdown for devices larger than 768px */
+@media only screen and (min-width: 769px) {
+    #nav-toggle,
+    .nav-toggle-label {
+        display: none;
+    }
+
+    nav {
+        display: flex;
+        justify-content: center; /* Center the nav menu */
+    }
+
+    #menu {
+        flex-direction: row; /* Ensure menu items are in a row for larger devices */
+    }
+
+    #menu>li {
+        margin-bottom: 0; /* Remove the bottom margin for menu items */
+    }
 }
