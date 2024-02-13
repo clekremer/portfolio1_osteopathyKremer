@@ -235,7 +235,7 @@ hr {
     height: 300px;
     /* Adjust the height as needed */
     max-width: 100%;
-   
+
 }
 
 #practice {
@@ -296,7 +296,7 @@ footer {
 #therapist {
     flex: 1;
     max-width: 60%;
-    
+
 }
 
 #therapist>div {
@@ -323,22 +323,12 @@ footer {
 
 /* Appointment Page*/
 
-/* Main content */
-main {
-    /* Enlarge main element to push footer down*/
-    flex: 1 0 auto;
-    /* Add margin at the top to prevent content from being covered by the header */
-    margin-top: 47px;
-    /* Enable flex properties for child elements */
-    display: flex;
-    flex-direction: column;
-}
-
 
 #contact {
     background-position: 75%;
-    padding: 30px 10% 0 18%;
-    margin-bottom: 50px;
+    padding: 10px 10% 0;
+    margin-bottom: 30px;
+    margin-left: 28px;
 }
 
 #contact ul {
@@ -403,6 +393,7 @@ main {
 
 /* Media query for mobile screens */
 @media only screen and (max-width: 768px) {
+
     #treatment-section,
     #practice-section,
     #therapist-section {
@@ -421,7 +412,8 @@ main {
     }
 
     #practice-image {
-        display: block; /* Add this line to ensure the image is displayed */
+        display: block;
+        /* Add this line to ensure the image is displayed */
         order: 2;
     }
 
@@ -484,33 +476,5 @@ main {
     #menu>li {
         margin-bottom: 0;
         /* Remove the bottom margin for menu items */
-    }
-}
-
-/* Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
-
-
-
-    /* Appointment Form */
-    #appointment {
-        background-position: center;
-        position: relative;
-    }
-
-    #appointment-form {
-        max-width: 400px;
-        position: absolute;
-        left: 10%;
-        top: 150px;
-    }
-
-    .text-input:hover {
-        border-color: #f16c6b;
-    }
-
-    .appointment-button:hover {
-        background-color: #fafafa;
-        color: #454b1b;
     }
 }
