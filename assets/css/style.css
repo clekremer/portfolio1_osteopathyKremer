@@ -55,13 +55,13 @@ h1 {
     margin-bottom: 10px;
     /* Center the menu items horizontally */
     justify-content: center;
-   
+
 
 }
 
 #menu>li {
     margin-right: 1em;
-    
+
 }
 
 .active {
@@ -72,7 +72,7 @@ h1 {
     /* Remove underline */
     text-decoration: none;
     color: #3a3a3a;
-   
+
 }
 
 /* Nav toggle */
@@ -88,7 +88,8 @@ h1 {
     font-size: 2rem;
     position: absolute;
     top: 10px;
-    right: 10px; /* Adjust as needed */
+    right: 10px;
+    /* Adjust as needed */
     cursor: pointer;
     color: #7acacc;
 }
@@ -107,7 +108,8 @@ nav {
 
 /* Add space above sections to account for fixed header */
 #treatment-section {
-    scroll-margin-top: 150px; /* Adjust the value based on your fixed header's height */
+    scroll-margin-top: 150px;
+    /* Adjust the value based on the fixed header's height */
 }
 
 
@@ -120,7 +122,7 @@ main {
     flex: 1 0 auto;
     margin-top: 130px;
     padding: 0px;
-    
+
 }
 
 /* Hands section */
@@ -148,8 +150,10 @@ main {
 hr {
     margin: 0;
     border: 0;
-    border-top: 1px solid #7acacc; /* You can adjust the color as needed */
+    border-top: 1px solid #7acacc;
+    /* You can adjust the color as needed */
 }
+
 /* Intro section */
 #intro {
     margin-bottom: 40px;
@@ -170,7 +174,7 @@ hr {
 }
 
 
-#treatment-section  h3 {
+#treatment-section h3 {
     margin-bottom: 20px;
     text-align: left;
     font-size: 120%;
@@ -179,7 +183,8 @@ hr {
 
 #treatment {
     flex: 1;
-    max-width: 60%; /* Set a maximum width for #treatment */
+    max-width: 60%;
+    /* Set a maximum width for #treatment */
 }
 
 #treatment>div {
@@ -200,7 +205,7 @@ hr {
     margin-top: 20px;
     max-width: 400px;
     max-height: 400px;
- }
+}
 
 /* Practice section */
 
@@ -220,19 +225,23 @@ hr {
 
 #practice-image {
     flex: 1;
-    order: 1; /* Set the order to 1 to place it on the left */
+    order: 1;
+    /* Set the order to 1 to place it on the left */
     background: url('../images/zWVbzGYE5WvU86tqeGEE.jpg') no-repeat;
     background-size: contain;
     margin-bottom: 20px;
     margin-top: 40px;
-    height: 300px; /* Adjust the height as needed */
-    max-width: 100%; /* Make sure it doesn't exceed its container */
+    height: 300px;
+    /* Adjust the height as needed */
+    max-width: 100%;
+    /* Make sure it doesn't exceed its container */
     margin-bottom: 20px;
 }
 
 #practice {
     flex: 2;
-    order: 2; /* Set the order to 2 to place it on the right */
+    order: 2;
+    /* Set the order to 2 to place it on the right */
     max-width: 60%;
 }
 
@@ -277,7 +286,7 @@ footer {
 }
 
 
-#therapist-section  h3 {
+#therapist-section h3 {
     margin-bottom: 20px;
     text-align: left;
     font-size: 120%;
@@ -286,7 +295,8 @@ footer {
 
 #therapist {
     flex: 1;
-    max-width: 60%; /* Set a maximum width for #treatment */
+    max-width: 60%;
+    /* Set a maximum width for #treatment */
 }
 
 #therapist>div {
@@ -308,12 +318,12 @@ footer {
     margin-top: 20px;
     max-width: 400px;
     max-height: 400px;
- }
+}
 
 
- /* Appointment Page*/
+/* Appointment Page*/
 
- /* Main content */
+/* Main content */
 main {
     /* Enlarge main element to push footer down*/
     flex: 1 0 auto;
@@ -327,20 +337,21 @@ main {
 
 #contact {
     background-position: 75%;
-    padding: 30px 10% 0 200px;
+    padding: 30px 10% 0 18%;
     margin-bottom: 50px;
 }
 
 #contact ul {
-    list-style: none; 
+    list-style: none;
 }
 
 #contact h2 {
-    margin-bottom: 15px; /
+    margin-bottom: 15px;
 }
 
 #contact ul li {
-    margin-bottom: 10px; /* Add margin between list items */
+    margin-bottom: 10px;
+    /* Add margin between list items */
 }
 
 
@@ -350,7 +361,7 @@ main {
 
     padding: 20px 10% 0 10%;
     flex-grow: 1;
-} 
+}
 
 #appointment-form {
     color: #3a3a3a;
@@ -390,7 +401,7 @@ main {
 }
 
 
- 
+
 
 /* Responsive font size for smaller screens */
 @media only screen and (max-width: 768px) {
@@ -426,6 +437,7 @@ main {
 
 /* Hide nav toggle and dropdown for devices larger than 768px */
 @media only screen and (min-width: 769px) {
+
     #nav-toggle,
     .nav-toggle-label {
         display: none;
@@ -433,14 +445,45 @@ main {
 
     nav {
         display: flex;
-        justify-content: center; /* Center the nav menu */
+        justify-content: center;
+        /* Center the nav menu */
     }
 
     #menu {
-        flex-direction: row; /* Ensure menu items are in a row for larger devices */
+        flex-direction: row;
+        /* Ensure menu items are in a row for larger devices */
     }
 
     #menu>li {
-        margin-bottom: 0; /* Remove the bottom margin for menu items */
+        margin-bottom: 0;
+        /* Remove the bottom margin for menu items */
+    }
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+
+
+    /* Appointment Form */
+    #appointment {
+        background-position: center;
+        position: relative;
+    }
+
+    #appointment-form {
+        max-width: 400px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+    }
+
+    .text-input:hover {
+        border-color: #f16c6b;
+    }
+
+    .appointment-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
     }
 }
