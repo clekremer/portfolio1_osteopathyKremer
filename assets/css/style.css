@@ -161,6 +161,7 @@ hr {
     text-align: center;
     font-size: 150%;
     padding: 40px;
+    max-width: 90%;
 }
 
 /* Treatment section */
@@ -230,12 +231,11 @@ hr {
     background: url('../images/zWVbzGYE5WvU86tqeGEE.jpg') no-repeat;
     background-size: contain;
     margin-bottom: 20px;
-    margin-top: 40px;
+    margin-top: 20px;
     height: 300px;
     /* Adjust the height as needed */
     max-width: 100%;
-    /* Make sure it doesn't exceed its container */
-    margin-bottom: 20px;
+   
 }
 
 #practice {
@@ -296,7 +296,7 @@ footer {
 #therapist {
     flex: 1;
     max-width: 60%;
-    /* Set a maximum width for #treatment */
+    
 }
 
 #therapist>div {
@@ -400,6 +400,33 @@ main {
     color: #fafafa;
 }
 
+
+/* Media query for mobile screens */
+@media only screen and (max-width: 768px) {
+    #treatment-section,
+    #practice-section,
+    #therapist-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #treatment,
+    #practice,
+    #therapist {
+        max-width: 100%;
+    }
+
+    #treatment-image {
+        max-width: 100%;
+    }
+
+    #practice-image {
+        display: block; /* Add this line to ensure the image is displayed */
+        order: 2;
+    }
+
+
+}
 
 
 
