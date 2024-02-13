@@ -266,35 +266,6 @@ footer {
     color: #ffffff;
 }
 
-/* Responsive font size for smaller screens */
-@media only screen and (max-width: 768px) {
-    #hands-title {
-        font-size: 20px;
-    }
-
-    /* Reduce and align #menu vertically for screens with a maximum width of 768px */
-    #menu {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    #menu>li {
-        margin-right: 0;
-        margin-bottom: 0.5em;
-    }
-
-    #nav-toggle {
-        display: none;
-    }
-
-    nav {
-        display: none;
-    }
-
-    #menu {
-        display: flex;
-    }
-}
 
 /* Therapist page */
 #therapist-section {
@@ -339,8 +310,117 @@ footer {
     max-height: 400px;
  }
 
+
+ /* Appointment Page*/
+
+ /* Main content */
+main {
+    /* Enlarge main element to push footer down*/
+    flex: 1 0 auto;
+    /* Add margin at the top to prevent content from being covered by the header */
+    margin-top: 47px;
+    /* Enable flex properties for child elements */
+    display: flex;
+    flex-direction: column;
+}
+
+
+#contact {
+    background-position: 75%;
+    padding: 30px 10% 0 200px;
+    margin-bottom: 50px;
+}
+
+#contact ul {
+    list-style: none; 
+}
+
+#contact h2 {
+    margin-bottom: 15px; /
+}
+
+#contact ul li {
+    margin-bottom: 10px; /* Add margin between list items */
+}
+
+
+/* Form */
+
+#appointment {
+
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+} 
+
+#appointment-form {
+    color: #3a3a3a;
+    padding: 30px;
+}
+
+#appointment-form>h2 {
+    color: #3a3a3a;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    background: transparent;
+    color: #3a3a3a;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #7acacc;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+#message {
+
+    height: 100px;
+
+}
+
+
+.appointment-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #7acacc;
+    color: #fafafa;
+}
+
+
  
 
+/* Responsive font size for smaller screens */
+@media only screen and (max-width: 768px) {
+    #hands-title {
+        font-size: 20px;
+    }
+
+    /* Reduce and align #menu vertically for screens with a maximum width of 768px */
+    #menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #menu>li {
+        margin-right: 0;
+        margin-bottom: 0.5em;
+    }
+
+    #nav-toggle {
+        display: none;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #menu {
+        display: flex;
+    }
+}
 
 
 

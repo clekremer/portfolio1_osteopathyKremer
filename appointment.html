@@ -61,20 +61,18 @@
         </section>
         <section id="contact">
             <h2>Contact</h2>
-            <p>
-                Kontaktaufnahme
-                Clemens Kremer
-                Osteopath D.O., Heilpraktiker
-                Löbdergraben 14 A
-                D-07743 Jena
-                +49 176 2278 2219
-                kremer@osteopathie-jena.net
-            </p>
+            <ul>
+                <li>Clemens Kremer</li>
+                <li>Osteopath D.O., Heilpraktiker</li>
+                <li>Löbdergraben 14A</li>
+                <li>D-07743 Jena</li>
+                <li>+49 176 2278 2219</li>
+                <li>kremer@osteopathie-jena.net</li>
+            </ul>
         </section>
         <hr>
-        </section>
         <section id="appointment">
-            <form id="appointment" method="POST" action="https://formdump.codeinstitute.net">
+            <form id="appointment-form" method="POST" action="https://formdump.codeinstitute.net">
                 <h2>Request appointment!</h2>
                 <label for="first_name">First Name</label>
                 <input type="text" name="first_name" id="first_name" class="text-input" required>
@@ -86,7 +84,7 @@
                 <input type="email" name="email_address" id="email_address" class="text-input" required>
                 <br>
                 <label for="message">Message</label>
-                <input type="text" name="message" id="message" class="text-input" required>
+                <textarea name="message" id="message" class="text-input" rows="4" required></textarea>
                 <br>    
                 <button type="submit" class="appointment-button">Request Appointment!</button>
             </form>
