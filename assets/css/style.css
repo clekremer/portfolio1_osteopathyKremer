@@ -50,7 +50,6 @@ h1 {
     letter-spacing: 4px;
     list-style-type: none;
     display: flex;
-    /* Adjust margin as needed */
     margin-top: 10px;
     margin-bottom: 30px;
     /* Center the menu items horizontally */
@@ -88,7 +87,6 @@ h1 {
     position: absolute;
     top: 1em;
     right: 1em;
-    /* Adjust as needed */
     cursor: pointer;
     color: #7acacc;
 }
@@ -214,13 +212,14 @@ hr {
 
 /* Add space above sections to account for fixed header */
 #practice-section {
-    scroll-margin-top: 290px;
+    scroll-margin-top: 300px;
 }
 
 #practice-section {
     width: 90%;
-    margin: 20px auto;
+    margin: 10px auto;
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
 
@@ -233,32 +232,44 @@ hr {
 
 
 #practice-image {
+    
     /* Set the order to 1 to place it on the left */
     order: 1;
     background: url('../images/practice.jpg') no-repeat;
     background-size: contain;
-    margin-bottom: 20px;
     margin-top: 50px;
     height: 80vw;
-    width: 100vw;
-    max-width: 100%;
+    width: 80vw;
+    max-width: 400px;
+    max-height: 400px;
+
 }
 
 
 #practice {
-    flex: 2;
+    flex: 1;
     /* Set the order to 2 to place it on the right */
     order: 2;
-    max-width: 60%;
+    max-width: 80%;
 }
 
 #practice>div {
     line-height: 20px;
-    margin-bottom: 20px;
 }
 
 #practice p {
     padding: 0 20px;
+}
+
+/* Prices section */
+#prices {
+    scroll-margin-top: 300px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 100%;
+    padding: 40px;
+    max-width: 90%;
 }
 
 
@@ -285,6 +296,7 @@ footer {
 
 /* Therapist page */
 #therapist-section {
+    scroll-margin-top: 250px;
     width: 90%;
     margin: 20px auto;
     display: flex;
@@ -355,7 +367,7 @@ footer {
 /* Form */
 
 #appointment {
-
+    scroll-margin-top: 250px;
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
@@ -420,7 +432,6 @@ footer {
 
     #practice-image {
         display: block;
-        /* Add this line to ensure the image is displayed */
         order: 2;
     }
 
@@ -435,7 +446,7 @@ footer {
         font-size: 40px;
     }
 
-    /* Reduce and align #menu vertically for screens with a maximum width of 768px */
+/* Reduce and align #menu vertically for screens with a maximum width of 768px */
     #menu {
         flex-direction: column;
         text-align: center;
@@ -469,19 +480,20 @@ footer {
         display: none;
     }
 
+/* Center the nav menu */
     nav {
         display: flex;
         justify-content: center;
-        /* Center the nav menu */
     }
 
+/* Ensure menu items are in a row for larger devices */
     #menu {
         flex-direction: row;
         /* Ensure menu items are in a row for larger devices */
     }
 
+/* Remove the bottom margin for menu items */
     #menu>li {
         margin-bottom: 0;
-        /* Remove the bottom margin for menu items */
     }
 }
