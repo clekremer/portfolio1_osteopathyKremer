@@ -52,17 +52,16 @@ h1 {
     display: flex;
     /* Adjust margin as needed */
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     /* Center the menu items horizontally */
     justify-content: center;
-
-
 }
 
-#menu>li {
-    margin-right: 1em;
-
+/* Creates space between the menu items*/
+#menu li {
+    margin-right: 3em;
 }
+
 
 .active {
     border-bottom: 1px solid #3a3a3a;
@@ -87,8 +86,8 @@ h1 {
 .nav-toggle-label {
     font-size: 2rem;
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 1em;
+    right: 1em;
     /* Adjust as needed */
     cursor: pointer;
     color: #7acacc;
@@ -106,15 +105,15 @@ nav {
     top: 100%;
 }
 
-/* Add space above sections to account for fixed header */
-#treatment-section {
-    scroll-margin-top: 150px;
-    /* Adjust the value based on the fixed header's height */
-}
 
 
 
 /* Main content */
+
+/* Add space above sections to account for fixed header */
+#treatment-section {
+    scroll-margin-top: 300px;
+}
 
 
 main {
@@ -127,7 +126,7 @@ main {
 
 /* Hands section */
 #hands {
-    height: 400px;
+    height: 500px;
     width: 100%;
     background: url("../images/tR0QV5PPeTsls7wgOCYs.jpg") no-repeat center center/cover;
     display: flex;
@@ -159,12 +158,17 @@ hr {
     margin-bottom: 40px;
     margin-top: 20px;
     text-align: center;
-    font-size: 150%;
+    font-size: 130%;
     padding: 40px;
     max-width: 90%;
 }
 
 /* Treatment section */
+
+/* Add space above sections to account for fixed header */
+#treatment-section {
+    scroll-margin-top: 300px;
+}
 
 #treatment-section {
     width: 90%;
@@ -185,7 +189,6 @@ hr {
 #treatment {
     flex: 1;
     max-width: 60%;
-    /* Set a maximum width for #treatment */
 }
 
 #treatment>div {
@@ -210,6 +213,11 @@ hr {
 
 /* Practice section */
 
+/* Add space above sections to account for fixed header */
+#practice-section {
+    scroll-margin-top: 290px;
+}
+
 #practice-section {
     width: 90%;
     margin: 20px auto;
@@ -224,24 +232,24 @@ hr {
     padding: 20px;
 }
 
+
 #practice-image {
-    flex: 1;
-    order: 1;
     /* Set the order to 1 to place it on the left */
+    order: 1;
     background: url('../images/zWVbzGYE5WvU86tqeGEE.jpg') no-repeat;
     background-size: contain;
     margin-bottom: 20px;
-    margin-top: 20px;
-    height: 300px;
-    /* Adjust the height as needed */
+    margin-top: 50px;
+    height: 80vw;
+    width: 100vw;
     max-width: 100%;
-
 }
+
 
 #practice {
     flex: 2;
-    order: 2;
     /* Set the order to 2 to place it on the right */
+    order: 2;
     max-width: 60%;
 }
 
@@ -296,7 +304,6 @@ footer {
 #therapist {
     flex: 1;
     max-width: 60%;
-
 }
 
 #therapist>div {
@@ -316,7 +323,7 @@ footer {
     width: 300vw;
     margin-bottom: 20px;
     margin-top: 20px;
-    max-width: 400px;
+    max-width: 300px;
     max-height: 400px;
 }
 
@@ -331,6 +338,7 @@ footer {
     margin-left: 28px;
 }
 
+/* Removes bullet points*/
 #contact ul {
     list-style: none;
 }
@@ -339,9 +347,9 @@ footer {
     margin-bottom: 15px;
 }
 
+/* Margin between list items */
 #contact ul li {
     margin-bottom: 10px;
-    /* Add margin between list items */
 }
 
 
