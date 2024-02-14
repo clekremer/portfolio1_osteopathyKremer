@@ -128,7 +128,7 @@ main {
 #hands {
     height: 500px;
     width: 100%;
-    background: url("../images/tR0QV5PPeTsls7wgOCYs.jpg") no-repeat center center/cover;
+    background: url("../images/hands.jpg") no-repeat center center/cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -202,7 +202,7 @@ hr {
 
 
 #treatment-image {
-    background: url('../images/7SyUW4lgveCUBeaRgsfG.jpg') no-repeat top center / cover;
+    background: url('../images/treatment.jpg') no-repeat top center / cover;
     height: 300vw;
     width: 300vw;
     margin-bottom: 20px;
@@ -236,7 +236,7 @@ hr {
 #practice-image {
     /* Set the order to 1 to place it on the left */
     order: 1;
-    background: url('../images/zWVbzGYE5WvU86tqeGEE.jpg') no-repeat;
+    background: url('../images/practice.jpg') no-repeat;
     background-size: contain;
     margin-bottom: 20px;
     margin-top: 50px;
@@ -317,7 +317,7 @@ footer {
 
 
 #therapist-image {
-    background: url('../images/q6pRDcnvHkrkY7pVSr1y.jpg') no-repeat top center;
+    background: url('../images/therapist.jpg') no-repeat top center;
     background-size: contain;
     height: 300vw;
     width: 300vw;
