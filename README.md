@@ -3,43 +3,46 @@
 This site is the public web presence of an Osteopathy praxis in Jena Germany. It offers osteopathic and manual therapeutic healthcare services for their interested visitors. The visitor gets relevant information about the treatment, conditions and the therapeut. 
 Furthermore the visitor has the possibility to request an appointment via contact form.  
 
-![Osteopathy Kremer](https://clekremer.github.io/portfolio1_osteopathyKremer/)
+![Osteopathy Kremer Responsive Mockup](https://clekremer.github.io/portfolio1_osteopathyKremer/)
+
+## User Stories
 
 ## Features
 
-- __Navigation Bar__
+__Navigation Bar__
 
 
-![image](https://clekremer.github.io/portfolio1_osteopathyKremer/)
+![Nav Bar](docs/readme_images/NavBar.PNG)
 
 
-- __Home Page__
-  - This page give an overview about relevant aspect of the osteothic practice, such as:
+__Landing Page__
+  - This page gives the visitor an overview about relevant aspects of the osteothic practice, such as:
     - What they can expect from an Osteopathic treamtent?
     - What will happen in the practice?
     - Prices and healtcare insurance information
 
+![Landing Page](docs/readme_images/landingpage.PNG)
 
 
-- __Therapist__
+__Therapist__
 
   - This page gives information about the methods and skills of the therpeut 
-  - It should give a first impression to the visitor 
+  - It should give a first impression to the visitor what kind of person and treatments they can expect
 
-![image](https://clekremer.github.io/portfolio1_osteopathyKremer/therapist.html#therapist-section) 
+![Therapist Page](docs/readme_images/therapist.PNG) 
 
 
 
-- __Request appointment form__
+__Request appointment form__
   - Interested visitor can book an appointment
 
-![image](https://clekremer.github.io/portfolio1_osteopathyKremer/appointment.html#appointment)
+![Appointment Form](docs/readme_images/appointment.PNG)
 
- - __Footer with social media links__
+__Footer with social media links__
  
  - On each page we provide links to social media where more information can be found
  
- ![image]
+ ![Footer](docs/readme_images/footer.PNG)
 
 ## Testing
 
@@ -81,7 +84,6 @@ __Main Languages__
 -  [CSS](https://en.wikipedia.org/wiki/CSS)
 
 __Frameworks, Libraries & Programs Used__
-- [Git](https://git-scm.com/) system was used for version contol
 - [Gitpod](https://www.gitpod.io/) was used for developing the code as IDE, commiting and pusing code to repository
 - [Github](https://github.com/) was using for storing repositories, and deployment via github pages
 - [Am I responsive](http://ami.responsivedesign.is/) was used to check the responsiveness of the site, and create a mock-up images to be used for this page
