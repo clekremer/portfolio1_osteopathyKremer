@@ -484,6 +484,36 @@ footer {
     #menu {
         display: flex;
     }
+
+    #prices {
+        margin-top: 0;
+    }
+
+    #therapist-section {
+        margin-top: 150px;
+    }
+
+    #therapist {
+        margin-bottom: 30px;
+    }
+
+    #therapist-image {
+        margin-bottom: 30px;
+    }
+
+    #contact {
+        margin-top: 100px;
+        margin-bottom: 120px;
+    }
+
+    #appointment {
+        margin-top: 130px;
+        margin-bottom: 40px;
+        padding-top:0;
+    }
+    #appointment-form {
+        padding-top:0;
+    }
 }
 
 
