@@ -542,4 +542,23 @@ footer {
     #menu>li {
         margin-bottom: 0;
     }
+
+
+/* Practice Section */
+
+#practice   {
+    margin-top: 200px;
+    border-bottom-width: 200px;
+    margin-bottom: 300px;
+    margin-left: 00px;
+    padding-left: 250px;
+    padding-right: 250px;
+    }
+
+#practice-image {
+    margin-top: 240px;
+    height: 400px;
+    padding-top: 0px;
+    }
+
 }
