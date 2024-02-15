@@ -26,6 +26,10 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #7acacc;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h1 {
@@ -50,8 +54,8 @@ h1 {
     letter-spacing: 4px;
     list-style-type: none;
     display: flex;
-    margin-top: 10px;
-    margin-bottom: 30px;
+    /*margin-top: 10px;
+    margin-bottom: 30px;*/
     /* Center the menu items horizontally */
     justify-content: center;
 }
@@ -93,12 +97,12 @@ h1 {
 
 /* Navbar styles with dropdown toggle */
 nav {
-    position: absolute;
+    /*position: absolute;*/
     background-color: #ffffff;
     width: 100%;
     left: 0;
     padding: 0 1rem;
-    box-shadow: 0 2px 2px #7acacc;
+    /*box-shadow: 0 2px 2px #7acacc;*/
     display: none;
     top: 100%;
 }
@@ -463,6 +467,7 @@ footer {
 
     nav {
         display: none;
+        position: absolute;
     }
 
     #menu {
