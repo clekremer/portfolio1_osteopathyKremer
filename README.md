@@ -1,39 +1,90 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Osteopathy Kremer 
 
-Welcome,
+This site is offering 
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Osteopathy Kremer](https://clekremer.github.io/portfolio1_osteopathyKremer/)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Features
 
-## Codeanywhere Reminders
+- __Navigation Bar__
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
 
-`python3 -m http.server`
+![image](https://clekremer.github.io/portfolio1_osteopathyKremer/)
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+- __Home Page__
+  - This page ....
 
-`http_server`
+- __Therapist__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - About the Therapist
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![image](https://clekremer.github.io/portfolio1_osteopathyKremer/therapist.html#therapist-section) 
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __Request appointment__
+  - interested visitor can book appointment
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+![image](https://clekremer.github.io/portfolio1_osteopathyKremer/appointment.html#appointment)
 
----
+ - __Footer with social media links__
+ 
+ - On each page we provide links to social media where more information can be found
+ 
+ ![image]
 
-Happy coding!
+## Testing
+
+### Validator Testing
+
+- HTML
+    - WC3 validator results
+     ![image]
+    - The check showed no errors or warnings
+
+- CSS
+    - Jigsaw validator results
+!    - The check showed no errors or warnings
+    
+ - Acessibility score through the lighthouse
+
+The page was tested after deployment on my own phone, laptop, desktop and ipad for responsiveness and functionality and on different browsers
+
+
+## Bugs encountered
+
+
+
+## Deployment
+
+This section describes how the code was deployed
+
+- The site was deployed to GitHub pages using the following steps
+  - In the github repository, navigate to the settings tab
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+  The live link can be found [here](https://clekremer.github.io/portfolio1_osteopathyKremer/index.html)
+  
+## Technologies used
+__Main Languages__
+
+-  [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-  [CSS](https://en.wikipedia.org/wiki/CSS)
+
+__Frameworks, Libraries & Programs Used__
+- [Git](https://git-scm.com/) system was used for version contol
+- [Gitpod](https://www.gitpod.io/) was used for developing the code as IDE, commiting and pusing code to repository
+- [Github](https://github.com/) was using for storing repositories, and deployment via github pages
+- [Am I responsive](http://ami.responsivedesign.is/) was used to check the responsiveness of the site, and create a mock-up images to be used for this page
+- [Jigsaw](https://jigsaw.w3.org/css-validator/) validator was used to check the CSS code for errors and warnings
+- [W3C](https://validator.w3.org/) validator was used to check the HTML5 code for errors and warnings
+- Google Chrome's lighthouse was used to check performance, accesibility and tips on how to improve the user experience and performance
+
+
+## Credits 
+
+I used sniplets of code from the [love running](https://code-institute-org.github.io/love-running-2.0/index.html) example
+
+Osteopath Kremer my own Homepage
