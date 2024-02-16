@@ -617,3 +617,29 @@ footer {
 
 
 }
+
+/* Media query for mobile phones in landscape mode */
+@media only screen and (max-width: 767px) and (orientation: landscape) {
+   
+    header {
+        position: relative;
+
+        }
+
+    #intro {
+        scroll-margin-top: 50px;
+
+    }
+    #treatment-section {
+        scroll-margin-top: 20px;
+
+    }
+    #practice-section {
+        scroll-margin-top: 10px;
+
+    }
+    #prices {
+        scroll-margin-top: 5px;
+
+    }
+}
