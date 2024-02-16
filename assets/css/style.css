@@ -128,7 +128,7 @@ main {
 
 /* Hands section */
 #hands {
-    height: 500px;
+    height: 300px;
     width: 100%;
     background: url("../images/hands.jpg") no-repeat center center/cover;
     display: flex;
@@ -156,11 +156,12 @@ hr {
 
 /* Intro section */
 #intro {
-    margin-bottom: 40px;
-    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-top: 100px;
     text-align: center;
     font-size: 130%;
-    padding: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
     max-width: 90%;
 }
 
@@ -168,7 +169,7 @@ hr {
 
 /* Add space above sections to account for fixed header */
 #treatment-section {
-    scroll-margin-top: 300px;
+    scroll-margin-top: 250px;
 }
 
 #treatment-section {
@@ -208,7 +209,7 @@ hr {
     width: 300vw;
     margin-bottom: 20px;
     margin-top: 20px;
-    max-width: 400px;
+    max-width: 500px;
     max-height: 400px;
 }
 
@@ -216,7 +217,7 @@ hr {
 
 /* Add space above sections to account for fixed header */
 #practice-section {
-    scroll-margin-top: 300px;
+    scroll-margin-top: 240px;
 }
 
 #practice-section {
@@ -244,7 +245,7 @@ hr {
     margin-top: 50px;
     height: 80vw;
     width: 80vw;
-    max-width: 400px;
+    max-width: 600px;
     max-height: 400px;
 
 }
@@ -266,6 +267,12 @@ hr {
 }
 
 /* Prices section */
+
+/* Add space above sections to account for fixed header */
+#prices {
+    scroll-margin-top: 0px;
+}
+
 #prices {
     scroll-margin-top: 300px;
     margin-bottom: 40px;
@@ -300,7 +307,7 @@ footer {
 
 /* Therapist page */
 #therapist-section {
-    scroll-margin-top: 250px;
+    scroll-margin-top: 160px;
     width: 90%;
     margin: 20px auto;
     display: flex;
@@ -490,7 +497,7 @@ footer {
     }
 
     #therapist-section {
-        margin-top: 150px;
+        margin-top: 50px;
     }
 
     #therapist {
@@ -543,22 +550,70 @@ footer {
         margin-bottom: 0;
     }
 
+/* Hands section */
 
-/* Practice Section */
+#hands {
+    height: 500px;
+}
 
-#practice   {
+/* Intro section */
+
+#intro {
+    margin-bottom: 140px;
+    margin-top: 140px;
+    text-align: center;
+    font-size: 130%;
+    padding-left: 220px;
+    padding-right: 100px;
+    max-width: 90%;
+}
+
+/* Treatment Section */
+
+#treatment   {
     margin-top: 200px;
     border-bottom-width: 200px;
     margin-bottom: 300px;
     margin-left: 00px;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 50px;
+    padding-right: 100px;
+    }
+
+#treatment-image {
+    margin-top: 210px;
+    height: 400px;
+    padding-top: 0px;
+    margin-right: 100px;
+    }
+
+/* Practice Section */
+#practice   {
+    margin-top: 220px;
+    border-bottom-width: 200px;
+    margin-bottom: 300px;
+    margin-left: 0px;
+    padding-left: 120px;
+    padding-right: 120px;
     }
 
 #practice-image {
     margin-top: 240px;
+    margin-left: 70px;
     height: 400px;
     padding-top: 0px;
     }
+
+
+/* Prices Section */
+
+#prices   {
+    margin-top: 200px;
+    border-bottom-width: 200px;
+    margin-bottom: 250px;
+    margin-left: 00px;
+    padding-left: 240px;
+    padding-right: 240px;
+    }
+
 
 }
