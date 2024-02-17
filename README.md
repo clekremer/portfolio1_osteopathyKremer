@@ -22,6 +22,22 @@ The imagery should give the user an impression of a warm and caring contact by h
 ###Colours
 The colours should have a clear canon. A colour should not be used only once, it should appear repeatedly. For example the blue form the logo appears again in the menu icon and in the border lines of the website; the grey from the hands background appears again in the footer. The colours were chosen to give the user a clear an straight impression. 
 
+## Wireframe
+
+Wireframes were created with Balsamiq.
+
+<details>
+
+<summary>Desktop Wireframe</summary>
+
+![Desktop Wireframe](docs/wireframes/desktopwireframe_osteopathy.png)
+</details>
+
+<details>
+<summary>Mobile Wireframe</summary>
+
+![Mobile Wireframe](docs/wireframes/mobilewireframe_osteopathy.png)
+</details>
 
 
 ## Features
