@@ -16,10 +16,10 @@ Furthermore the visitor has the possibility to request an appointment via contac
 
 ## Design
 
-###Imagery
+### Imagery
 The imagery should give the user an impression of a warm and caring contact by hands. He should get the feeling that he would the get treated by this therapist.
 
-###Colours
+### Colours
 The colours should have a clear canon. A colour should not be used only once, it should appear repeatedly. For example the blue form the logo appears again in the menu icon and in the border lines of the website; the grey from the hands background appears again in the footer. The colours were chosen to give the user a clear an straight impression. 
 
 ## Wireframe
@@ -87,20 +87,32 @@ __Footer with social media links__
 
 ### Validator Testing
 
-- HTML: No errors were returned from the official W3C Markup Validator:
+- HTML, no errors were returned from the official W3C Markup Validator:
   - [W3C Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fclekremer.github.io%2Fportfolio1_osteopathyKremer%2F)
 
-- CSS
-    - Jigsaw validator results
-!    - The check showed no errors or warnings
+- CSS, showed no errors or warnings:
+[W3C CSS Validator Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fclekremer.github.io%2Fportfolio1_osteopathyKremer%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=de)
     
- - Acessibility score through the lighthouse
+ - Acessibility score through the lighthouse 100%
+ ![lighthouse results](docs/readme_images/lighthouse.PNG)
 
-The page was tested after deployment on mobile phone, laptop, desktop and tablet pad for responsiveness and functionality and on different browsers
+The page was tested after deployment on mobile phone, laptop, desktop and tablet pad for responsiveness and functionality and on different browsers (Chrome, Firefox, Edge). No bugs were found. 
+
+### Form Testing
+- The form was tested successfully. It only can be submitted with all required fiels and email address. It give feedback when fields are empty or no email address was used.
+
+### Links Testing
+- all internal and external links were tested successfully 
+
+    
+### Device Testing
+- responsiveness for different screen sizes was tested successfully on laptop, desktop and mobile (Samsung S20) and with [Am I Responsive](https://ui.dev/amiresponsive?url=https://clekremer.github.io/portfolio1_osteopathyKremer/)
+
 
 
 ## Bugs encountered
 
+No known bugs.
 
 
 ## Deployment
@@ -137,3 +149,4 @@ I used sniplets of code from the [love running](https://code-institute-org.githu
 Content ideas were used from "Osteopathie Kremer Jena" my own Homepage: [Osteopathie Kremer](https://www.osteopathie-jena.net/)
 
 Images were made in my own Osteopathy practice. The photograph was Nikolaus Brade: http://nikolausbrade.de/
+
