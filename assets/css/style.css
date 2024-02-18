@@ -156,6 +156,7 @@ hr {
 
 /* Intro section */
 #intro {
+    scroll-margin-top: 300px;
     margin-bottom: 100px;
     margin-top: 100px;
     text-align: center;
@@ -169,7 +170,7 @@ hr {
 
 /* Add space above sections to account for fixed header */
 #treatment-section {
-    scroll-margin-top: 250px;
+    scroll-margin-top: 160px;
 }
 
 #treatment-section {
@@ -217,7 +218,7 @@ hr {
 
 /* Add space above sections to account for fixed header */
 #practice-section {
-    scroll-margin-top: 240px;
+    scroll-margin-top: 150px;
 }
 
 #practice-section {
@@ -334,6 +335,12 @@ footer {
 }
 
 #therapist p {
+    padding: 0 20px;
+     
+}
+
+#therapist ul {
+    list-style: none;
     padding: 0 20px;
 }
 
@@ -463,9 +470,10 @@ footer {
     #hands-title {
         font-size: 40px;
     }
-
+    
     #intro {
         font-size: 100%;
+        scroll-margin-top: 280px;
     }
 
 /* Reduce and align #menu vertically for screens with a maximum width of 768px */
@@ -550,7 +558,15 @@ footer {
         margin-bottom: 0;
     }
 
-/* Hands section */
+}
+
+
+
+/* Large devices (laptops and desktops, 1440px and up) */
+@media only screen and (min-width: 1440px) {
+
+
+    /* Hands section */
 
 #hands {
     height: 500px;
@@ -566,7 +582,7 @@ footer {
     padding-left: 220px;
     padding-right: 100px;
     max-width: 90%;
-}
+    }
 
 /* Treatment Section */
 
@@ -640,6 +656,16 @@ footer {
     }
     #prices {
         scroll-margin-top: 5px;
+
+    }
+
+    #therapist-section {
+        scroll-margin-top: 10px;
+
+    }
+
+    #appointment {
+        scroll-margin-top: 30px;
 
     }
 }
