@@ -8,8 +8,8 @@ Furthermore the visitor has the possibility to request an appointment via contac
 
 ## User Stories
 - As a user I want to get informed about offerings and services of Osteopathy Kremer 
-- As a user I want to get informed about effect of Osteopathy and about the process of the treatment in the practice 
-- As a user I want to get informed about the prices and the location 
+- As a user I want to get informed about the effect of Osteopathy and about the process of the treatment in the practice 
+- As a user I want to get informed about the prices  
 - As a user I want to get an impression of the ambience of Oseopathy practice
 - As a user I want to get an impressiom of the therapeut and his skills
 - As a user I want to know how to get in contact and book an appointment 
@@ -17,7 +17,7 @@ Furthermore the visitor has the possibility to request an appointment via contac
 ## Design
 
 ### Imagery
-The imagery should give the user an impression of a warm and caring contact by hands. He should get the feeling that he would the get treated by this therapist.
+The imagery should give the user an impression of a warm and caring contact by hands. He should get the feeling that he would like to get treated by this therapist.
 
 ### Colours
 The colours should have a clear canon. A colour should not be used only once, it should appear repeatedly. For example the blue form the logo appears again in the menu icon and in the border lines of the website; the grey from the hands background appears again in the footer. The colours were chosen to give the user a clear an straight impression. 
@@ -149,4 +149,8 @@ I used sniplets of code from the [love running](https://code-institute-org.githu
 Content ideas were used from "Osteopathie Kremer Jena" my own Homepage: [Osteopathie Kremer](https://www.osteopathie-jena.net/)
 
 Images were made in my own Osteopathy practice. The photograph was Nikolaus Brade: http://nikolausbrade.de/
+
+## Acknowlegements
+
+Thanks to my mentor Antonio for his support and feedback.
 
