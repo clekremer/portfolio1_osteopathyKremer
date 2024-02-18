@@ -3,7 +3,7 @@
 This site is the public web presence of an Osteopathy praxis in Jena Germany. It offers osteopathic and manual therapeutic healthcare services for their interested visitors. The visitor gets relevant information about the treatment, conditions and the therapeut. 
 Furthermore the visitor has the possibility to request an appointment via contact form.  
 
-![Osteopathy Kremer Responsive Mockup](https://clekremer.github.io/portfolio1_osteopathyKremer/)
+![Osteopathy Kremer Responsive Mockup](docs/readme_images/responsive_mockup.PNG)
 
 
 ## User Stories
@@ -87,10 +87,8 @@ __Footer with social media links__
 
 ### Validator Testing
 
-- HTML
-    - WC3 validator results
-     ![image]
-    - The check showed no errors or warnings
+- HTML: No errors were returned from the official W3C Markup Validator:
+  - [W3C Validator Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Fclekremer.github.io%2Fportfolio1_osteopathyKremer%2F)
 
 - CSS
     - Jigsaw validator results
